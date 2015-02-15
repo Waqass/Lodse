@@ -1,0 +1,130 @@
+/*
+Theme Name:         Lodse
+Theme URI:          http://lodse.com
+Description:        Billa is a WordPress theme based on Foundation 5 by Zurb
+Author:             Waqass Khalid
+Version: 1.1.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: white, right-sidebar,  custom-menu, featured-images, responsive-layout
+
+*/
+
+body {
+    font-family: 'Exo 2', sans-serif;;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Orbitron', sans-serif !important;
+    font-weight: 400 !important;
+}
+
+h2 {
+    font-size: 30px;
+}
+h2 a 
+{
+    color: rgba(60, 77, 86, 0.84) !important;
+}
+.featured-thumbnail
+{
+    width:200px;
+    margin-right: 20px;
+    float: left;
+}
+
+/*Header*/
+#homepage-hero {
+    background: url("./images/header.jpg") repeat scroll 0px 0px #074E68;
+}
+/*Footer*/
+.social
+{
+   color:#666 !important;
+}
+.footer .columns:nth-child(n+2) {
+    border-left: none;
+    min-height: 0px;
+}
+
+.bottom
+{
+    background: none repeat scroll 0% 0% #333;
+    color: #666;
+    padding: 10px;
+}
+
+.grey a 
+{
+    color:#666 !important;
+}
+
+.bottom ul.home-social li a:hover {
+    opacity: 0.8;
+}
+
+.logo
+{
+    display: block;
+    margin: 0px auto;
+}
+
+.bottom ul li {
+    text-transform: uppercase;
+
+}
+.links
+{
+    line-height: 7;
+}
+.inline-list i
+{
+    font-size: 40px;
+}
+.inline-list i:hover
+{
+    
+    color:white;
+}
+@media only screen and (min-width: 767px)
+{
+     .copyright
+  {
+      margin: -15px 3px 0px 2px
+  }
+
+}
+@media only screen and (min-width: 767px) and  (max-width:800px)
+{
+    .slide-content{
+      top: 0px;
+  }  
+
+}
+@media only screen and (max-width: 767px) {
+  .social {
+    float:none;
+    text-align: center;
+  }
+
+  .links
+  {
+      line-height: 2;
+      display: inline-block;
+  }
+  .slide-content{
+      visibility: hidden;
+  }
+  .bottom
+  {
+      text-align: center !important;
+  }
+}
+.gallery-caption  
+{
+   font-size: 20px;
+}
+.sticky .entry-date {
+	display: none;
+}
+.commentlist .bypostauthor {border-top: 10px solid #e18728;}
+.commentlist li ul.children li.bypostauthor {border-top: 10px solid #e18728;}
