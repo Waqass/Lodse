@@ -1,4 +1,4 @@
-# Billa
+# Lodse
 
 This is a WordPress theme based on FoundationPress. 
 
@@ -14,6 +14,6 @@ A clean install on "Billa" is being demonstrated at http://lodse.com/
 
 ##license
 
-Billa, Copyright 2015 Lodse.com
+Lodse, Copyright 2015 Lodse.com
 
-Billa is distributed under the terms of the GNU GPL.
+Lodse is distributed under the terms of the GNU GPL.
